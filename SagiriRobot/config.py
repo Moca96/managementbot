@@ -9,9 +9,9 @@ class Config(object):
 
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  
     
-    EVENT_LOGS = (-1001527287273)  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1001982108661)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = "mongodb+srv://adi6804:Adi.855053@dazai.zj0usfh.mongodb.net/?retryWrites=true&w=majority"  # Get this value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://zadkiel:zadkiel@zadkiel.rh8o93y.mongodb.net/?retryWrites=true&w=majority&appName=Zadkiel"  # Get this value from cloud.mongodb.com
 
     REDIS_URL = "redis://default:kMaLb8lDTzdf3MVW4gXmkcSaToV4hYci@redis-19240.c301.ap-south-1-1.ec2.cloud.redislabs.com:19240"  #Get this value from redis.com
 
@@ -20,13 +20,13 @@ class Config(object):
 
     PM_START_IMG = "https://te.legra.ph/file/6201d9711b4703fd9e254.jpg"
 
-    SUPPORT_CHAT = "Gojo_support_chat"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "zadkiel_hub"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "6116157753:AAFegVQ6EJMj-bUVq1NdhjEi-lMNZ5YxrC0"  # Get bot token from @BotFather on Telegram
+    TOKEN = ""  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "8981U7UV1QBH"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 6171176459  # User id of your telegram account (Must be integer)
+    OWNER_ID = 7012420639  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
